@@ -1,0 +1,16 @@
+huawei_news_collector/
+├── config/
+│   ├── __init__.py
+│   └── settings.py          # 配置文件
+├── src/
+│   ├── __init__.py
+│   ├── collector.py         # 新闻收集器
+│   ├── analyzer.py          # 文本分析器
+│   ├── summarizer.py        # 摘要生成器
+│   ├── storage.py           # 文件存储
+│   └── scheduler.py         # 任务调度器
+├── logs/                    # 日志目录
+├── data/                    # 数据存储目录
+├── tests/                   # 测试目录
+├── requirements.txt         # 依赖包
+└── main.py                  # 主程序入口
